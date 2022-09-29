@@ -1,0 +1,46 @@
+[
+  {
+    "identification_card": "8-75-584",
+    "full_name": "Juan Perez",
+    "pin": 1478,
+    "payments": [
+      {
+        "identification_card": "PE-254-845",
+        "payment_date": "4/4/21",
+        "amount": "200.00"
+      },
+      {
+        "identification_card": "PE-254-845",
+        "payment_date": "1/5/21",
+        "amount": "198.22"
+      },
+      {
+        "identification_card": "PE-254-845",
+        "payment_date": "1/6/21",
+        "amount": "210.00"
+      }
+    ]
+  },
+  {
+    "identification_card": "PE-254-845",
+    "full_name": "Miguel Batista",
+    "pin": 1244,
+    "payments": [
+      {
+        "identification_card": "PE-254-845",
+        "payment_date": "4/30/21",
+        "amount": "200.00"
+      },
+      {
+        "identification_card": "PE-254-845",
+        "payment_date": "3/29/21",
+        "amount": "198.22"
+      },
+      {
+        "identification_card": "PE-254-845",
+        "payment_date": "2/17/21",
+        "amount": "210.00"
+      }
+    ]
+  }
+]

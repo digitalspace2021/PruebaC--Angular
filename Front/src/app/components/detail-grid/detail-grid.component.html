@@ -1,0 +1,13 @@
+<dx-data-grid [dataSource]="payments" [showBorders]="true" [columnAutoWidth]="true">
+  <dxi-column dataField="payment_date" dataType="date" caption="Fecha de pago"></dxi-column>
+  <dxi-column dataField="amount" dataType="string" caption="Cantidad pagada"></dxi-column>
+  <dxo-summary>
+    <dxi-total-item
+      displayFormat="Calculado: {0}"
+      showInColumn="amount"
+      column="amount"
+      summaryType="sum"
+      valueFormat="currency">
+    </dxi-total-item>
+  </dxo-summary>
+</dx-data-grid>

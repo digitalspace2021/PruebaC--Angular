@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-lg-12 mt-3">
+      <form (submit)="returnFilter($event)">
+        <dx-form id="form" [colCount]="2" [(formData)]="filters" [labelLocation]="'top'">
+          <dxi-item dataField="identification_card" [label]="{ text: 'Número de documento', location: 'top' }">
+            <!-- <dxi-validation-rule type="required" message="Número de ducumento obligatorio" ></dxi-validation-rule> -->
+          </dxi-item>
+          <dxi-item itemType="button" horizontalAlignment="left" location="button" [buttonOptions]="buttonOptions"></dxi-item>
+        </dx-form>
+      </form>
+  </div>
+</div>
